@@ -1,0 +1,6 @@
+{
+  "name": "Clínica Vitta Premium",
+  "description": "Website médico de alta conversão focado em credibilidade, segurança e agendamento simplificado.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": []
+}
