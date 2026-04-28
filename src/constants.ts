@@ -46,7 +46,7 @@ export const SERVICES = [
     description: "Coleta rápida no local com entrega de resultados online e integração com o prontuário.",
     benefit: "Conforto e rapidez no diagnóstico.",
     icon: Microscope,
-    image: "https://images.unsplash.com/photo-1606214300300-36384a515c0e?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?q=80&w=2070&auto=format&fit=crop",
   },
 ];
 
