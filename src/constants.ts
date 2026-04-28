@@ -56,7 +56,7 @@ export const TEAM = [
     role: "Diretora Clínica & Cardiologista",
     reg: "CRM-SP 123.456",
     description: "Especialista pela USP com 15 anos de atuação em medicina preventiva e cardiologia de alta complexidade.",
-    image: "https://images.unsplash.com/photo-1559839734-2b71f153678f?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=800",
   },
   {
     name: "Dr. Ricardo Santos",
