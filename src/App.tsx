@@ -502,11 +502,23 @@ export default function App() {
               </button>
             </div>
           </div>
-          <div className="h-[500px] bg-brand-secondary rounded-[40px] overflow-hidden shadow-inner border border-gray-100 flex items-center justify-center text-brand-muted flex-col p-10 text-center">
-             <MapPin size={48} className="mb-4 opacity-20" />
-             <p className="max-w-xs">Mapa interativo será renderizado aqui com o endereço {CLINIC_DATA.address}</p>
-             <div className="mt-8 p-4 bg-white/50 rounded-xl border border-white/20 text-xs italic">
-                Próximo ao Metrô e com Estacionamento no Local.
+          <div className="relative h-[500px] bg-brand-secondary rounded-[40px] overflow-hidden shadow-2xl border border-gray-100 group">
+             <img 
+               src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=1200" 
+               alt="Mapa Localização" 
+               className="w-full h-full object-cover opacity-40 grayscale group-hover:grayscale-0 transition-all duration-1000"
+               referrerPolicy="no-referrer"
+             />
+             <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent" />
+             <div className="absolute inset-0 flex items-center justify-center flex-col p-10 text-center">
+                <div className="bg-white p-6 rounded-full shadow-2xl mb-6 relative animate-bounce">
+                   <MapPin size={48} className="text-brand-primary" />
+                   <div className="absolute -inset-2 bg-brand-primary/20 rounded-full animate-ping" />
+                </div>
+                <p className="max-w-xs text-brand-text font-bold text-lg mb-2">{CLINIC_DATA.address}</p>
+                <div className="p-4 bg-brand-primary/10 backdrop-blur-md rounded-2xl border border-brand-primary/20 text-xs font-bold text-brand-primary uppercase tracking-widest">
+                   Estacionamento no Local
+                </div>
              </div>
           </div>
         </div>
